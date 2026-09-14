@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="玩家服务、反馈情报与体验优化的交互作品。虚构数据，规则模拟 AI。">
+  <title>玩家信号 · 产品运营工作台</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2310b9a6'/%3E%3Cpath d='M6 19h5l3-9 4 14 3-9h5' fill='none' stroke='white' stroke-width='2.5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css"><script src="model.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#overview"><span class="brand-symbol">∿</span><span>玩家信号<small>PLAYER SIGNAL</small></span></a>
+    <div class="workspace-label">产品运营工作台 <span>DEMO</span></div>
+    <nav id="navigation" aria-label="主导航"></nav>
+    <div class="side-bottom"><div class="scope-card"><span class="scope-mark">◇</span><strong>每一条反馈，都有下文。</strong><p>从玩家声音到产品改善</p><button class="button subtle" data-action="tour">查看演示路线 <span>↗</span></button></div><div class="profile"><span class="avatar">韩</span><div>韩家豪<small>产品运营 · 作品演示</small></div><span class="profile-more">···</span></div></div>
+  </aside>
+  <div class="main-shell">
+    <header class="topbar"><div class="breadcrumb">工作空间 <span>/</span> <strong id="breadcrumb">运营总览</strong></div><div class="top-actions"><span class="sample-label"><i></i>模拟业务数据</span><button class="icon-button" data-action="help" aria-label="演示说明">?</button></div></header>
+    <main id="app" tabindex="-1"></main>
+    <footer>面向 TapTap 产品运营岗位的独立作品 · 非官方产品 <span>AI 为本地规则模拟 · 操作仅保存在当前浏览器</span></footer>
+  </div>
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
